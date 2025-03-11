@@ -1,0 +1,43 @@
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T10:01:14.039Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T10:01:14.048Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T10:01:26.664Z"}
+{"level":"info","message":"GET /favicon.ico - ::1","timestamp":"2025-03-11T10:01:26.832Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T10:01:53.951Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T10:01:54.579Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T10:02:04.881Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T10:02:04.890Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T10:02:06.253Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T11:36:05.026Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T11:36:05.036Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T11:36:10.847Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T11:36:11.617Z"}
+{"level":"info","message":"GET /register - ::1","timestamp":"2025-03-11T11:36:16.424Z"}
+{"level":"info","message":"GET /login - ::1","timestamp":"2025-03-11T11:36:21.417Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T11:37:58.251Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T11:37:58.258Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T11:48:11.893Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T11:48:11.899Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2025-03-11T11:48:23.677Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2025-03-11T11:48:23.748Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2025-03-11T11:48:23.753Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2025-03-11T11:48:23.758Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2025-03-11T11:48:23.761Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2025-03-11T11:48:24.056Z"}
+{"level":"info","message":"POST /auth/register - ::1","timestamp":"2025-03-11T11:48:36.153Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T12:10:04.624Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T12:10:04.630Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2025-03-11T12:10:09.589Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2025-03-11T12:10:12.229Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2025-03-11T12:10:12.259Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2025-03-11T12:10:12.262Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2025-03-11T12:10:12.267Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2025-03-11T12:10:12.268Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2025-03-11T12:10:12.480Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-03-11T12:12:26.347Z"}
+{"level":"error","message":"❌ Database connection failed: connect ECONNREFUSED 0.0.0.0:3306","timestamp":"2025-03-11T12:12:26.353Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2025-03-11T12:12:29.758Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2025-03-11T12:12:29.786Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2025-03-11T12:12:29.789Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2025-03-11T12:12:29.796Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2025-03-11T12:12:29.798Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2025-03-11T12:12:29.990Z"}
