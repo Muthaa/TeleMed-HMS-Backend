@@ -17,6 +17,7 @@ exports.addAdmin = async (req, res) => {
     );
 };
 
+<<<<<<< HEAD
 // Admin Login
 exports.loginAdmin = (req, res) => {
     const { username, password } = req.body;
@@ -40,6 +41,61 @@ exports.logoutAdmin = (req, res) => {
     res.json({ message: 'Admin logged out successfully' });
 };
 
+=======
+// Admin Login (Session-Based)
+exports.loginAdmin = (req, res) => {
+    const { username, password } = req.body;
+
+    if (!username || !password) {
+        return res.status(400).json({ error: 'Username and password are required' });
+    }
+
+    db.query('SELECT * FROM admin WHERE username = ?', [username], async (err, results) => {
+        if (err) {
+            console.error("Database error:", err);
+            return res.status(500).json({ error: 'Internal server error' });
+        }
+
+        if (results.length === 0) {
+            return res.status(401).json({ error: 'Invalid credentials' });
+        }
+
+        const admin = results[0];
+        const match = await bcrypt.compare(password, admin.password_hash);
+
+        if (!match) {
+            return res.status(401).json({ error: 'Invalid credentials' });
+        }
+
+        // ✅ Store admin details in session
+        req.session.admin = {
+            id: admin.id,
+            username: admin.username,
+            role: admin.role
+        };
+
+        return res.json({
+            message: 'Admin login successful',
+            admin: req.session.admin // Return session-stored admin data
+        });
+    });
+};
+
+
+// Admin Logout (Session-Based)
+exports.logoutAdmin = (req, res) => {
+    req.session.destroy((err) => {
+        if (err) {
+            console.error("Logout error:", err);
+            return res.status(500).json({ error: "Failed to log out" });
+        }
+        res.clearCookie('connect.sid'); // Clears the session cookie
+        res.json({ message: "Admin logged out successfully" });
+    });
+};
+
+
+>>>>>>> 98121c5 (update backend security features)
 // Get All Appointments
 exports.getAllAppointments = (req, res) => {
     db.query('SELECT * FROM appointments', (err, results) => {

@@ -14,6 +14,23 @@ const options = {
         url: 'http://localhost:3000', // Change to your API URL
       },
     ],
+<<<<<<< HEAD
+=======
+    components: {
+      securitySchemes: {
+        SessionAuth: {
+          type: "apiKey",
+          in: "cookie",
+          name: "connect.sid",
+        },
+      },
+    },
+    security: [
+      {
+        BearerAuth: [],
+      },
+    ],
+>>>>>>> 98121c5 (update backend security features)
   },
   apis: ['./routes/*.js', './controllers/*.js'], // Document routes & controllers
 };

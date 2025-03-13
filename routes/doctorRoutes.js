@@ -3,7 +3,10 @@ const router = express.Router();
 const doctorController = require('../controllers/doctorController');
 const authenticate = require('../middlewares/authenticate');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 98121c5 (update backend security features)
 /**
  * @swagger
  * tags:
@@ -31,8 +34,24 @@ const authenticate = require('../middlewares/authenticate');
  *                 type: string
  *               email:
  *                 type: string
+<<<<<<< HEAD
  *               phone:
  *                 type: string
+=======
+ *               password:
+ *                 type: string
+ *               phone:
+ *                 type: string
+ *               date_of_birth:
+ *                 type: string
+ *                 format: date
+ *               gender:
+ *                 type: string
+ *               address:
+ *                 type: string
+ *               license_number:
+ *                 type: string
+>>>>>>> 98121c5 (update backend security features)
  *               schedule:
  *                 type: string
  *     responses:
@@ -41,7 +60,11 @@ const authenticate = require('../middlewares/authenticate');
  *       500:
  *         description: Server error
  */
+<<<<<<< HEAD
 router.post('/add-doctor', doctorController.addDoctor);
+=======
+router.post('/add-doctor', authenticate, doctorController.addDoctor);
+>>>>>>> 98121c5 (update backend security features)
 
 /**
  * @swagger
@@ -55,7 +78,11 @@ router.post('/add-doctor', doctorController.addDoctor);
  *       500:
  *         description: Server error
  */
+<<<<<<< HEAD
 router.get('/get-all', doctorController.getAllDoctors);
+=======
+router.get('/get-all', authenticate, doctorController.getAllDoctors);
+>>>>>>> 98121c5 (update backend security features)
 
 /**
  * @swagger
@@ -75,7 +102,11 @@ router.get('/get-all', doctorController.getAllDoctors);
  *       500:
  *         description: Server error
  */
+<<<<<<< HEAD
 router.get('/:id', doctorController.getDoctorById);
+=======
+router.get('/:id', authenticate, doctorController.getDoctorById);
+>>>>>>> 98121c5 (update backend security features)
 
 /**
  * @swagger
