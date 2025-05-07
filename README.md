@@ -1,5 +1,4 @@
 # TeleMed-HMS Backend
-## Healthcare Management System
 
 ## Overview
 The **TeleMed-HMS Backend** is a **Node.js & MySQL-based API** for managing healthcare services, including patients, doctors, and appointments. It uses **session-based authentication** stored in MySQL for secure user sessions.
