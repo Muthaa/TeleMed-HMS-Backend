@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# TeleMed-HMS
-# Healthcare Management System
-
-## Overview
-The TeleMed Healthcare Management System is a Node.js and MySQL-based API that allows patients to book appointments, doctors to manage schedules, and admins to oversee operations.
-=======
 # TeleMed-HMS Backend
-# Healthcare Management System
+## Healthcare Management System
 
 ## Overview
 The **TeleMed-HMS Backend** is a **Node.js & MySQL-based API** for managing healthcare services, including patients, doctors, and appointments. It uses **session-based authentication** stored in MySQL for secure user sessions.
->>>>>>> 98121c5 (update backend security features)
 
 ## Features
 - **Patient Management**: Registration, login, profile updates, and account deletion.
@@ -19,19 +11,15 @@ The **TeleMed-HMS Backend** is a **Node.js & MySQL-based API** for managing heal
 - **Admin Controls**: Managing users, viewing appointments, and logging in securely.
 - **Authentication & Authorization**: Secure JWT-based authentication.
 - **Swagger Documentation**: API documentation with Swagger.
-<<<<<<< HEAD
-=======
 - **User Roles:** Patients, Doctors, and Admins
 - **Session-based Authentication:** Stored in MySQL
 - **Security:** Helmet.js, rate limiting, CORS policies
 - **API Documentation:** Swagger integrated
 - **Role-Based Access Control (RBAC)** for fine-grained permissions
->>>>>>> 98121c5 (update backend security features)
 
 ## Technologies Used
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
-<<<<<<< HEAD
 - **Authentication**: JWT, bcrypt
 - **Documentation**: Swagger
 - **Hosting**: cPanel-supported Node.js deployment
